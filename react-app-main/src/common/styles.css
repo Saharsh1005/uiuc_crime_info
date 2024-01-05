@@ -1,0 +1,168 @@
+.navigation {
+  background-color: #f6f6f6 !important;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+  .navigation.scrolled {
+    position: fixed;
+    height:12vh;
+    padding: 10px;
+    background-color: #f6f6f6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index:100!important;
+  }
+  
+   .safe-zone-uof-i {
+    color: transparent;
+    font-family: "Newsreader", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    line-height: 40px;
+    white-space: nowrap;
+  }
+  .text-wrapper-13 {
+    color: #002855;
+  }
+  
+   .text-wrapper-14 {
+    color: #426b1f;
+  }
+  
+   .text-wrapper-15 {
+    color: #ff5f05;
+  }
+  .navs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .navs > div{
+    margin: 0 5%;
+    padding: 0 5%;
+  }
+  
+ .register {
+    background-color: #002855;
+    border-radius: 8px;
+    height: 48px;
+    overflow: hidden;
+    width: 126px;
+  }
+  
+ .text-wrapper-17 {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 20.8px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .element-home-page #university-of-wrapper {
+    background-color: #002855!important;
+    height: 131px;
+    padding:1% 0;
+  }
+  
+  .element-home-page #university-of {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 26px;
+    text-align: center!important;
+  }
+
+  a{
+    text-decoration: none!important;
+    font-family: "Inter", Helvetica!important;
+    color: #002855!important;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 26px;
+  }
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: #002855!important;
+    font-weight: 800;
+  }
+  .navbar-expand-lg .navbar-collapse{
+    flex-direction: row-reverse;
+
+  }
+  
+  @media(max-width: 500px) {
+   
+    .safe-zone-uof-i {
+        font-size: 20px; 
+    }
+
+    .navbar-collapse.show {
+        height: auto; 
+        overflow-y: auto; 
+    }
+
+    .element-home-page .university-of {
+        font-size: 12px; 
+        line-height: 18px;
+    }
+
+    .element-home-page .university-of-wrapper {
+        background-color: #002855!important;
+        height: auto; 
+        padding: 3% 0;
+    }
+
+    .navigation {
+        height: auto; 
+    }
+
+    .navigation.scrolled {
+        height: auto; 
+    }
+
+    .nav-link, .register {
+        padding: 8px 10px; 
+    }
+
+    .register {
+        width: 100px; 
+        font-size: 14px; 
+    }
+
+    a {
+        font-size: 16px; 
+    }
+}
+
+@media(min-width:501px) and (max-width:1100px){
+  .navigation{
+    height:auto;
+  }
+  .navigation.scrolled {
+    height: auto; 
+}
+}
+
+  .university-of-wrapper {
+    background-color: #002855;
+    color: #ffffff;
+    text-align: center;
+
+    bottom: 0;
+    width: 100vw;
+    padding: 10px;
+  }
+  
+  .university-of {
+    margin: 0;
+    padding: 0;
+  }

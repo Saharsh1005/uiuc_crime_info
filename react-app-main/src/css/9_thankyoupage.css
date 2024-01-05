@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Mooli&family=Newsreader:ital,opsz,wght@0,6..72,200;0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,200;1,6..72,300;1,6..72,400;1,6..72,500;1,6..72,600;1,6..72,700&display=swap');
+.element-thankyou-page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.element-thankyou-page .p {
+  color: #62d26d;
+  font-family: "Newsreader", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38.4px;
+}
+.element-thankyou-page .div-2{
+  margin-top:20%;
+  text-align: center;
+  height:100%;
+}
+.thankyouimage{
+  margin-top: 5%;
+}
+.innerdiv{
+  height:100vh;
+  margin-bottom:20%;
+}
+.reportacrimelink{
+  font-size: 25px;
+  font-family: "Newsreader", Helvetica!important;
+  color: #666666!important;
+  text-decoration: underline!important;
+}
+.crimelinkdink{
+  margin:10% auto;
+}
+
+@media(max-width:700px){
+  .element-thankyou-page .p{
+    font-size:25px;
+    line-height:27px;
+  }
+  .element-thankyou-page .div-2{
+    margin-top:40%;
+  }
+}
