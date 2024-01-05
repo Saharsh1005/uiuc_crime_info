@@ -37,10 +37,6 @@ To enhance safety and convenience in Urbana-Champaign, there is a need for an im
 
 ## Team Information
 
-### I) TEAM NAME: Web Wizards
-
-### II) TEAM MEMBERS
-
 - Mukta Jaiswal: [muktaj2]
 - Palveet Kaur Saluja: [psaluja2]
 - Saharsh Sandeep Barve: [ssbarve2]
