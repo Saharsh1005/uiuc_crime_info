@@ -1,4 +1,4 @@
-# UIUC Crime Web Application [website](https://cs411-puredata.uc.r.appspot.com/)
+# UIUC Crime Web Application [link](https://cs411-puredata.uc.r.appspot.com/)
 
 ### Problem Statement & Motivation
 
